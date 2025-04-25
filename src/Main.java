@@ -1,5 +1,5 @@
 import controlador.SaludoController;
-
+import controlador.SumaController;
 public class Main {
 
 
@@ -10,6 +10,10 @@ public class Main {
 
         controlador1.iniciar();
         controlador2.iniciar();
+
+        SumaController suma1 = new SumaController();
+
+        suma1.iniciar();
 
     }
 }
